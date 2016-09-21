@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ilike_play"
+        android:orderInCategory="200"
+        android:title="@string/like_music"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_set_as"/>
+    <item
+        android:id="@+id/near_play_Play"
+        android:orderInCategory="300"
+        android:title="@string/recently_music"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_media_play"/>
+
+</menu>
